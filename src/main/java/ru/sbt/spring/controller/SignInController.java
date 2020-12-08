@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import ru.sbt.spring.DAO.AuditRepository;
 import ru.sbt.spring.DAO.UserRepository;
 import ru.sbt.spring.LoginStatus;
-import ru.sbt.spring.DAO.entity.Audit;
+import ru.sbt.spring.DTO.Audit;
 
 @Controller
 public class SignInController {

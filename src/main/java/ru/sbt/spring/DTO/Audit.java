@@ -1,4 +1,4 @@
-package ru.sbt.spring.DAO.entity;
+package ru.sbt.spring.DTO;
 
 import ru.sbt.spring.LoginStatus;
 
