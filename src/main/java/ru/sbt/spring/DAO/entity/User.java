@@ -1,4 +1,4 @@
-package ru.sbt.spring;
+package ru.sbt.spring.DAO.entity;
 
 import javax.persistence.*;
 

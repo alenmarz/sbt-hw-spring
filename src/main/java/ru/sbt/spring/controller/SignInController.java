@@ -1,10 +1,14 @@
-package ru.sbt.spring;
+package ru.sbt.spring.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import ru.sbt.spring.DAO.AuditRepository;
+import ru.sbt.spring.DAO.UserRepository;
+import ru.sbt.spring.LoginStatus;
+import ru.sbt.spring.DAO.entity.Audit;
 
 @Controller
 public class SignInController {

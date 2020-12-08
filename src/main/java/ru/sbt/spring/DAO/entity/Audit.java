@@ -1,4 +1,6 @@
-package ru.sbt.spring;
+package ru.sbt.spring.DAO.entity;
+
+import ru.sbt.spring.LoginStatus;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
